@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Go Traveller</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900|Open+Sans:400,600,700,800" rel="stylesheet">   
+     
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="css2.css" rel="stylesheet"><link rel="stylesheet" href="Let's%20Go%20Traveller_files/animate.min.css">
+<link rel="stylesheet" href="Let's%20Go%20Traveller_files/font-awesome.min.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="row clearfix">
+                <img src="new.png" class="logo" width="500" height="500"> 
+                <ul class="main-nav animated slideInDown" id="check-class">
+					<li><a href="#">Home</a></li>
+                    <li><a href="adventure/adv.html">Adventure</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Hindu_pilgrimage_sites_in_India">Religious</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/List_of_most_visited_palaces_and_monuments">Historical</a></li>
+                    <li><a href="Foldable Login & Registration form/login.html">Login/Sign Up</a></li>
+
+                </ul>
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                 <a href="#" class="mobile-icon" onclick="slideshow()"><i class="fa fa-bars"></i></a>
+            </div>
+        </nav>
+
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+			
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner">
+			  <div class="item active">
+				<a href="#"><img src="images/slider_1 (1).jpg" alt="slider1" style="width:100%; height: 500px"></a>
+			  </div>
+		  
+			  <div class="item">
+				<a href="#"><img src="images/slide1 (1).jpg" alt="slider2" style="width:100%; height: 500px"></a>
+			  </div>
+
+			  <div class="item">
+				<a href="#"><img src="images/slide1 (2).jpg" alt="slider2" style="width:100%; height: 500px"></a>
+			  </div>
+		  
+			</div>
+		  
+			<!-- Left and right controls -->
+			<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+			  <span class="glyphicon glyphicon-chevron-left"></span>
+			  <span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" data-slide="next">
+			  <span class="glyphicon glyphicon-chevron-right"></span>
+			  <span class="sr-only">Next</span>
+			</a>
+		</div>
+       
+			<div class="main-content-header">
+			<h1>&nbsp;&nbsp;&nbsp;Travel World with Us!!!<br>
+			Just Grab Your Bags &amp; <span class="colorchange">Let's Go</span></h1>
+			<a href="https://www.makemytrip.com/" class="btn btn-full">Click for Booking</a>
+			<a href="contact/contact.html" class="btn btn-nav">Contact Us</a>
+			</div>
+		
+    </header>
+    <script type="text/javascript">
+function slideshow(){
+  var x = document.getElementById('check-class');
+  if(x.style.display === "none"){
+    x.style.display="block";
+  }else{
+    x.style.display="none";
+  }
+}
+
+    </script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+<div class="home_top_destinations_bg" id="top_destinations">
+	<div class="container">
+	<h1 class="home_our_rooms_heading" style="padding-bottom:12px;">Top Destinations</h1>
+	<p class="home_top_destinations_para">Traveling is a brutality. It forces you to trust strangers and to lose sight of all that familiar comfort of home and friends. You are constantly off balance. Nothing is yours except the essential things - air, sleep, dreams, the sea, the sky - all things tending towards the eternal or what we imagine of it.</p>
+		<div class="row">
+			<div class="col-sm-4 home_top_destinations_bottom_padding">
+				<div class="home_top_destinations_text_position">
+					<p class="home_destinations_city_name">Manali</p>
+					<p><img src="images/manali.jpg" class="img-responsive"></p>
+				</div>
+			</div>
+			
+			<div class="col-sm-4 home_top_destinations_bottom_padding">
+				<div class="home_top_destinations_text_position">
+					<p class="home_destinations_city_name">Banaras</p>
+					<p><img src="images/bnaras.jpg" class="img-responsive"></p>
+				</div>
+			</div>
+			
+			
+			
+			<div class="col-sm-4 home_top_destinations_bottom_padding">
+				<div class="home_top_destinations_text_position">
+					<p class="home_destinations_city_name">Agra</p>
+					<p><img src="images/delhi.jpg" class="img-responsive" style="height: 240px; width: 360px;"></p>
+				</div>
+			</div>
+			
+			<div class="col-sm-4 home_top_destinations_bottom_padding">
+				<div class="home_top_destinations_text_position">
+					<p class="home_destinations_city_name">Udaipur</p>
+					<p><img src="images/udaipur.jpg" class="img-responsive" style="height: 240px; width: 360px;"></p>
+				</div>
+			</div>
+			
+			<div class="col-sm-4 home_top_destinations_bottom_padding">
+				<div class="home_top_destinations_text_position">
+					<p class="home_destinations_city_name">Jodhpur</p>
+					<p><img src="images/jodhpur.jpg" class="img-responsive" style="height: 240px; width: 360px;"></p>
+				</div>
+			</div>
+			<div class="col-sm-4 home_top_destinations_bottom_padding">
+				<div class="home_top_destinations_text_position">
+					<p class="home_destinations_city_name">Rishikesh</p>
+					<p><img src="images/rishikesh.jpg" class="img-responsive" style="height: 240px; width: 360px;"></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<footer class="footer_bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				
+				<p class="footer_para">
+					Travel far, travel wide, and travel boldly. Life's too short to do otherwise.
+					<br>
+					<br>
+					<br>
+					<a href="#" class="footer_icons"><img src="images/facebook.png"></a>
+					<a href="#" class="footer_icons"><img src="images/twitter.png"></a>
+					<a href="#" class="footer_icons"><img src="images/instagram.png"></a>
+					<a href="#" class="footer_icons"><img src="images/google_plus.png"></a>
+					<a href="#" class="footer_icons"><img src="images/youtube.png"></a>
+				</p>
+			</div>
+			
+			<div class="col-md-2 col-sm-6 col-xs-12">
+				<p class="footer_header">Quick Links</p>
+				<p class="footer_underline"></p>
+				
+				<div class="footer_destination_div">
+					<p class="footer_top_margin"><a href="#book_online" class="footer_destination_name"><i class="fa fa-caret-right footer_fa" aria-hidden="true"></i>Book Online</a></p>
+					<p class="footer_top_margin"><a href="#about_us" class="footer_destination_name"><i class="fa fa-caret-right footer_fa" aria-hidden="true"></i>About Us</a></p>
+					<p class="footer_top_margin"><a href="#gallery" class="footer_destination_name"><i class="fa fa-caret-right footer_fa" aria-hidden="true"></i>Gallery</a></p>
+					<p class="footer_top_margin"><a href="#top_destinations" class="footer_destination_name"><i class="fa fa-caret-right footer_fa" aria-hidden="true"></i>Top Destinations</a></p>
+					<p class="footer_top_margin"><a href="#contact_us" class="footer_destination_name"><i class="fa fa-caret-right footer_fa" aria-hidden="true"></i>Contact Us</a></p>
+				</div>
+			</div>
+			
+			<div class="col-md-2 col-sm-6 col-xs-12">
+				<p class="footer_header">Top Destinations</p>
+				<p class="footer_underline"></p>
+				
+				<div class="footer_destination_div">
+					<p class="footer_top_margin"><a href="#" class="footer_destination_name"><i class="fa fa-caret-right footer_fa" aria-hidden="true"></i>Manali</a></p>
+					<p class="footer_top_margin"><a href="#" class="footer_destination_name"><i class="fa fa-caret-right footer_fa" aria-hidden="true"></i>Rishikesh</a></p>
+					<p class="footer_top_margin"><a href="#" class="footer_destination_name"><i class="fa fa-caret-right footer_fa" aria-hidden="true"></i>Goa</a></p>
+					<p class="footer_top_margin"><a href="#" class="footer_destination_name"><i class="fa fa-caret-right footer_fa" aria-hidden="true"></i>New Delhi</a></p>
+					<p class="footer_top_margin"><a href="#" class="footer_destination_name"><i class="fa fa-caret-right footer_fa" aria-hidden="true"></i>Mumbai</a></p>
+				</div>
+			</div>
+			
+			<div class="col-md-3 col-sm-6 col-xs-12">
+				<p class="footer_header">Contact Info</p>
+				<p class="footer_underline"></p>
+				
+				<div class="footer_destination_div">
+					<p class="footer_top_margin"><a class="footer_destination_name"><i class="fa fa-map-marker footer_fa" aria-hidden="true"></i>Lorem Ipsum, Del Tempo Morez, Phil Road, County Name - 72947294</a></p>
+					<p class="footer_top_margin"><a class="footer_destination_name"><i class="fa fa-phone footer_fa" aria-hidden="true"></i>+1-234 567890</a></p>
+					<p class="footer_top_margin"><a class="footer_destination_name"><i class="fa fa-envelope footer_fa" aria-hidden="true"></i>info@domainname.com</a></p>
+					<p class="footer_top_margin"><a class="footer_destination_name"><i class="fa fa-clock-o footer_fa" aria-hidden="true"></i>Business Hours: 9am &minus; 5pm GMT</a></p>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</footer>
+
+<div class="footer_copyright">
+	<div class="container">
+		<p class="footer_copyright_left">&copy; Copyright 2018. All Rights Reserved.</p>
+		<p class="footer_copyright_right"><a href="#" class="footer_right_links">Pages</a>   |   <a class="footer_right_links" href="#">Privacy Policy</a>   |   <a class="footer_right_links" href="#">Terms Conditions</a></p>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+
+
+<!-- <footer class = "info">
+	<h1 style="text-align: left; text-transform: capitalize; font-size: 100%;">About Us</h1>
+
+</footer>-->
+<footer class = "end">
+	<p><h3>
+		Thank You for Visiting......!!!!!
+	</h3></p>
+</footer>
+
+</body>
+<script>
+	$(document).ready(function(){
+
+    $(".filter-button").click(function(){
+        var value = $(this).attr('data-filter');
+        
+        if(value == "all")
+        {
+            //$('.filter').removeClass('hidden');
+            $('.filter').show('1000');
+        }
+        else
+        {
+//            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+//            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+            $(".filter").not('.'+value).hide('3000');
+            $('.filter').filter('.'+value).show('3000');
+            
+        }
+    });
+    
+    if ($(".filter-button").removeClass("active")) {
+$(this).removeClass("active");
+}
+$(this).addClass("active");
+
+});
+</script>
+
+</html>
