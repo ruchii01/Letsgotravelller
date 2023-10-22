@@ -1,0 +1,52 @@
+#head
+{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255,255,255,0.3);
+}
+.multi-item-carousel{
+    .carousel-inner{
+      > .item{
+        transition: 500ms ease-in-out left;
+      }
+      .active{
+        &.left{
+          left:-33%;
+        }
+        &.right{
+          left:33%;
+        }
+      }
+      .next{
+        left: 33%;
+      }
+      .prev{
+        left: -33%;
+      }
+      @media all and (transform-3d), (-webkit-transform-3d) {
+      > .item{
+          
+          transition: 500ms ease-in-out left;
+          transition: 500ms ease-in-out all;
+          backface-visibility: visible;
+          transform: none!important;
+        }
+      }
+    }
+    .carouse-control{
+      &.left, &.right{
+        background-image: none;
+      }
+    }
+    > .item{
+        
+        padding-right: 10px;
+        margin-right: 100px;
+    }
+  }
+
+  body{
+    background: #333;
+    color: #ddd;
+  }
+  
